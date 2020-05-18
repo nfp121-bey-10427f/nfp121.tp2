@@ -44,8 +44,8 @@ public class FahrenheitCelsius {
 	public static float fahrenheitEnCelsius(int f) {
 
 	   	float res = (5.0f/9.0f)*(f-32);
-		int newRes = (int)(((int)(res*100f))/10.0f);
-		return (float)(newRes/10f);
+		float newRes = ((int)(res*10))/10f;
+		return (newRes);
 	    
 	    
 	    
